@@ -7,6 +7,7 @@ namespace riskmanagement;
  owner : String;
  prio : String(5);
  descr : String;
+ status : String;
  miti : Association to Mitigations;
  impact : Integer;
  bp : Association to BusinessPartners;
